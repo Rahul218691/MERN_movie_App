@@ -1,0 +1,9 @@
+.home__title{
+	text-transform: uppercase;
+}
+
+.poster__card{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}

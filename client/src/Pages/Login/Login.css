@@ -1,0 +1,21 @@
+.login__main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 60vh;
+}
+
+.auth__card{
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+}
+
+.auth__logo{
+	width: 5rem;
+	text-align: center;
+}

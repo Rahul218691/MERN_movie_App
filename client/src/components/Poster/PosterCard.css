@@ -1,0 +1,48 @@
+.main__post__card{
+	display: flex;
+	flex-direction: column;
+	background-color: #282c34;
+	border-radius: 10px;
+	font-family: "Montserrat", sans-serif;
+	padding: 5px;
+    margin: 5px 3px;
+    width: 200px;
+    position: relative;
+    cursor: pointer;	
+}
+
+.main__post__card:hover{
+	background-color: #fff;
+	color: black;
+}
+
+
+.main__post__card img{
+	object-fit: cover;
+}
+
+.post__title{
+	text-align: center;
+}
+
+.post__subtitle{
+	display: flex;
+	justify-content: space-between;
+}
+
+.main__post__card .badge{
+	width: 20%;
+	position: absolute;
+	right: 2%;
+	top: 1%;
+}
+
+.star__icon{
+	color: yellow;
+}
+
+@media (max-width: 550px) {
+  .main__post__card {
+    width: 46%;
+  }
+}

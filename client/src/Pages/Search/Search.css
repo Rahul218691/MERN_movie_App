@@ -1,0 +1,25 @@
+.search__input{
+	display: flex;
+	margin: 15px 0;	
+}
+
+.search__input input{
+	width: 100%;
+	outline: none;
+	border: none;
+	background-color: #2d313a;
+}
+
+.search__input button{
+	background-color: #ddd;
+}
+
+
+.search__tabs span{
+	margin: 0.5rem;
+	cursor: pointer;
+}
+
+.search__tabs span.active{
+	border-bottom: 1px solid #fff;
+}

@@ -1,0 +1,28 @@
+.overview__container{
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 1rem;
+}
+
+.overview__container p{
+	text-align: justify;
+}
+
+.genre__details{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.genre__details span{
+	margin: 2px;
+	cursor: pointer;
+}
+
+.icon__youtube{
+	font-size: 20px;
+}
+
+.video__container{
+	width: 100%;
+	object-fit: cover;
+}

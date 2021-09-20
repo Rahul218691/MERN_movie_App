@@ -1,0 +1,10 @@
+export {default as Header} from './Header/Header';
+export {default as Footer} from './Footer/Footer';
+export {default as GoogleButton} from './GoogleButton';
+export {default as PosterCard} from './Poster/PosterCard';
+export {default as HomeCarousal} from './HomeCarousal';
+export {default as Alert} from './Alert/Alert';
+export {default as Movies} from './Search/Movies';
+export {default as TvSeries} from './Search/Tvseries';
+export {default as Genre} from './Genre/Genre';
+export {default as CreditsCarousal} from './Carousal/CreditsCarousal';

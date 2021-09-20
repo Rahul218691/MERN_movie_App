@@ -1,0 +1,37 @@
+.header{
+	width: 100%;
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	background-color: #39445a;
+  	color: white;
+  	z-index: 100;	
+  	align-items: center;	
+}
+
+.header__image{
+	width: 6rem;
+	cursor: pointer;
+	padding: .5rem;
+}
+
+.user__icon{
+	padding: .5rem;
+}
+
+.icon__user{
+	font-size: 1.5rem;
+	cursor: pointer;
+}
+
+.dropleft button{
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.dropleft button:hover{
+	background: none;
+	outline: none;
+	border: none;
+}
